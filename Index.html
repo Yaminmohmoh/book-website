@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Book Heaven Co.,Ltd</title>
+
+	<!-- fav icon -->
+	<link href="./img/logo3.png" rel="icon" type="image/png"/>
+
+	<!-- bootstrap css1 js1 -->
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+
+	<!-- fontawesome css1 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- command css -->
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+
+		body{
+			padding: 0;
+			margin: 0;
+		}
+
+		/*span{
+			color:white;
+			font-weight: bold;
+			font-size: 25px;
+		}*/
+
+		.banners{
+			height: 100vh;
+			background: linear-gradient(
+				20deg,
+				lightgreen 20%,
+				#68A589 0% 100%
+			);
+
+			background-size: 5%;
+			transition: all 2s;
+		}
+
+		.banners:hover{
+			background-size: 5.5%;
+			background-position: center;
+		}
+
+		.cardhovers:hover{
+			box-shadow: -7px 5px 5px rgba(0,0,0,0.3);
+		}
+
+		.maps{
+			width: 100%;
+			height: 300px;
+		}
+	</style>
+	
+</head>
+<body>
+
+	<!-- start header section -->
+
+		<header>
+			<!-- start nav section -->
+				<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+					<a href="#" class="navbar-brand mx-3">
+						<img src="./img/logo3.png" width="60px" alt="sitelogo"/>
+						<span class="ms-2">Book Heaven</span>
+					</a>
+
+					<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><i class="navbar-toggler-icon"></i></button>
+
+					<div id="nav" class="navbar-collapse collapse justify-content-between">
+						<ul class="navbar-nav px-3">
+								<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Home</a></li>
+								<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">New Arrivals</a></li>
+								<li class="nav-item dropdown">
+									<a href="#" class="dropdown-toggle nav-link text-uppercase fw-bold" data-bs-toggle="dropdown">Books</a>
+									<ul class="dropdown-menu">
+										<li><a href="#" class="dropdown-item">Fiction</a></li>
+										<li><a href="#" class="dropdown-item">Mystery/Thriller</a></li>
+										<li><a href="#" class="dropdown-item">Romance</a></li>
+										<li><a href="#" class="dropdown-item">Children's Books</a></li>
+										<li><a href="#" class="dropdown-item">Cookbooks</a></li>
+									</ul>
+								</li>
+
+						
+							<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Out teams</a></li>
+							<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Pricing</a></li>
+							<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Contacts</a></li>
+					 </ul>
+
+
+					<div class="px-3">
+						<a href="#" class="btn btn-outline-light btn-sm rounded-0">Sign-up</a>
+					</div>
+
+					</div>
+
+				</nav>
+			<!-- end nav section -->
+
+			<!-- start banner -->
+				<div class="row justify-content-center align-items-center banners">
+					<div class="col-md-10 text-center">
+						<h1 class="text-capitalize"><span class="text-white">Welcome to </span><span class="fw-bold text-black display-1">Heaven Book!</span></h1>
+						<h2 class="text-light fst-italic fw-light">We are warmly welcome to book lovers.</h2>
+						<p class="text-secondary">You can read, you can buy.</p>
+						<a href="#" class="btn bg-black text-white rounded-0" data-bs-toggle="modal" data-bs-target="#loginmodal">Touch to watch</a>
+
+					</div>
+				</div>
+
+			<!-- end banner -->
+		</header>
+
+	<!-- end header section -->
+
+	<!-- start new arrivals section -->
+
+		<section class="bg-white">
+
+			
+				<div class="container-fluid p-5">
+					<!-- start title -->
+						<div class="col-md-12 text-center">
+							<h1 class="text-warning display-4 fw-bold">Best Book To Read</h1>
+							<p class="text-muted lead">Have a nice day!!The Bookworm's Oasis.</p>
+						</div>
+					<!-- end title -->
+
+						<div class="row text-center">
+							<div class="col-md-3 col-sm-6 mb-3">
+								<div class="card bg-success cardhovers">
+									<div class="card-body">
+										<h5>Whispers of the Moon</h5>
+										<h6 class="text-muted mb-3">Writer:Isabella Nightingale</h6>
+										<p>Under the silver glow of the moon, Luna felt a mysterious pull, as if the night itself whispered secrets.</p>
+										<a href="#" class="card-link">Download</a>
+										<a href="#" class="card-link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 mb-3">
+								<div class="card bg-success cardhovers">
+									<div class="card-body">
+										<h5>The Sapphire Cipher</h5>
+										<h6 class="text-muted mb-3">Writer:Victor Starlight</h6>
+										<p>A cryptic puzzle leads intrepid seekers through a labyrinth of intrigue, where each clue unfolds like a shimmering facet</p>
+										<a href="#" class="card-link">Download</a>
+										<a href="#" class="card-link">Read More</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 mb-3">
+								<div class="card bg-success cardhovers">
+									<div class="card-body">
+										<h5>Harmony of the Spheres</h5>
+										<h6 class="text-muted mb-3">Writer:Luna Celestia</h6>
+										<p>The celestial melodies of the cosmos resonate through the protagonist's journey.</p>
+										<a href="#" class="card-link">Download</a>
+										<a href="#" class="card-link">Read More</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 mb-3">
+								<div class="card bg-success cardhovers">
+									<div class="card-body">
+										<h5>Ink and Illusion</h5>
+										<h6 class="text-muted mb-3">Writer:Jasper Quill</h6>
+										<p>Paints a surreal canvas where reality blurs into illusion, and the strokes of imagination.</p>
+										<a href="#" class="card-link">Download</a>
+										<a href="#" class="card-link">Read More</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 mb-3">
+								<div class="card bg-warning cardhovers">
+									<div class="card-body">
+										<h5>The Labyrinthine Chronicles</h5>
+										<h6 class="text-muted mb-3">Writer:Evelyn Mystique</h6>
+										<p>Evelyn Mystique discovers that destiny's threads are spun with the enigmatic artistry of cosmic weavers.</p>
+										<a href="#" class="card-link">Download</a>
+										<a href="#" class="card-link">Read More</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 mb-3">
+								<div class="card bg-warning cardhovers">
+									<div class="card-body">
+										<h5>Serenade of Shadows</h5>
+										<h6 class="text-muted mb-3">Writer:Gabriel Blackthorn</h6>
+										<p>As shadows dance to the melancholic tune of secrets whispered in the obsidian night.</p>
+										<a href="#" class="card-link">Download</a>
+										<a href="#" class="card-link">Read More</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 mb-3">
+								<div class="card bg-warning cardhovers">
+									<div class="card-body">
+										<h5>The Enigmatic Atlas</h5>
+										<h6 class="text-muted mb-3">Writer:Olivia Winters</h6>
+										<p>An ancient map unfolds, guiding intrepid souls through realms its secrets.</p>
+										<a href="#" class="card-link">Download</a>
+										<a href="#" class="card-link">Read More</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 mb-3">
+								<div class="card bg-warning cardhovers">
+									<div class="card-body">
+										<h5>Echoes in Eternity</h5>
+										<h6 class="text-muted mb-3">Writer:Alexander Evergreen</h6>
+										<p>Time unfurls its secrets with each echoing heartbeat, revealing a symphony.</p>
+										<a href="#" class="card-link">Download</a>
+										<a href="#" class="card-link">Read More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+			
+				</div>
+			
+	
+		</section>
+
+	<!-- end newarrivals section -->
+
+	<!-- start Book section -->
+		<section>
+			<!-- start title -->
+				<div class="col-md-12 text-center">
+					<h1 class="text-success fw-bold display-4">Books</h1>
+					<p class="text-muted lead">Have a nice day!!The Bookworm's Oasis.</p>
+				</div>
+			<!-- end title -->
+
+			<div class="row">
+				<div class="col-lg-2 col-md-6 col-sm-12">
+					<img src="./img/book1.jpg" class="img-thumbnail" alt="book1" style="width: 250px; height: 350px;"/>
+					<h3 class="text-warning my-3">Whispered of the Moon</h3>
+					<p class="text-muted">Time unfurls its secrets with each echoing heartbeat, revealing a symphony of moments resonating through the ages.</p>
+				</div>
+
+				<div class="col-lg-2 col-md-6 col-sm-12">
+					<img src="./img/book2.jpg" class="img-thumbnail" alt="book2" style="width: 250px; height: 350px;"/>
+					<h3 class="text-warning my-3">Code Name</h3>
+					<p class="text-muted">Time unfurls its secrets with each echoing heartbeat, revealing a symphony of moments resonating through the ages.</p>
+				</div>
+
+				<div class="col-lg-2 col-md-6 col-sm-12">
+					<img src="./img/book3.jpg" class="img-thumbnail" alt="book3" style="width: 250px; height: 350px;"/>
+					<h3 class="text-warning my-3">The Harmonies Of The Sphere</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+
+				<div class="col-lg-2 col-md-6 col-sm-12">
+					<img src="./img/book4.jpg" class="img-thumbnail" alt="book4" style="width: 250px; height: 350px;"/>
+					<h3 class="text-warning my-3">The Illusion Of Living</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+
+				<div class="col-lg-2 col-md-6 col-sm-12">
+					<img src="./img/book5.jpg" class="img-thumbnail" alt="book5" style="width: 250px; height: 350px;"/>
+					<h3 class="text-warning my-3">Rick Riordan</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+
+				<div class="col-lg-2 col-md-6 col-sm-12">
+					<img src="./img/book6.jpg" class="img-thumbnail" alt="book6" style="width: 250px; height: 350px;"/>
+					<h3 class="text-warning my-3">Kiss Me Comix</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+
+				<div class="col-lg-2 col-md-6 col-sm-12">
+					<img src="./img/book7.jpg" class="img-thumbnail" alt="book7" style="width: 250px; height: 350px;"/>
+					<h3 class="text-warning my-3">Our ladies of Mystrious</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+
+				<div class="col-lg-2 col-md-6 col-sm-12">
+					<img src="./img/book8.jpg" class="img-thumbnail" alt="book8" style="width: 250px; height: 350px;"/>
+					<h3 class="text-warning my-3">The Conserbactory Of Princes</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+
+				<div class="col-lg-2 col-md-6 col-sm-12">
+					<img src="./img/book9.jpg" class="img-thumbnail" alt="book9" style="width: 250px; height: 350px;"/>
+					<h3 class="text-warning my-3">The Conserbactory Of Princes</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+
+				<div class="col-lg-2 col-md-6 col-sm-12">
+					<img src="./img/book10.jpg" class="img-thumbnail" alt="book10" style="width: 250px; height: 350px;"/>
+					<h3 class="text-warning my-3">The Conserbactory Of Princes</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+
+				<div class="col-lg-2 col-md-6 col-sm-12">
+					<img src="./img/book11.jpg" class="img-thumbnail" alt="book11" style="width: 250px; height: 350px;"/>
+					<h3 class="text-warning my-3">The Conserbactory Of Princes</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+
+				<div class="col-lg-2 col-md-6 col-sm-12">
+					<img src="./img/book12.jpg" class="img-thumbnail" alt="book12" style="width: 250px; height: 350px;"/>
+					<h3 class="text-warning my-3">The Conserbactory Of Princes</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+			</div>
+
+		</section>
+	
+	<!-- end Book section -->
+
+	<!-- start team section -->
+		<section class="bg-secondary p-5">
+			<div class="container-fluid">
+				<!-- start tilte -->
+					<div class="col-md-12 text-center">
+						<h3 class="text-warning fw-bold display-4">Team</h3>
+					</div>
+				<!-- end title -->
+
+				<div class="row">
+					<div class="col-lg-4 col-sm-10 mx-auto mb-4">
+						<div class="card bg-white">
+							<img src="./img/p1.jpg" class="" alt="user1"/>
+							<div class="card-body">
+								<h3 class="card-title">Ms.Khin Myat Noe</h3>
+								<p class="card-subtitle lead">Operation Manager</p>
+							</div>
+							<div class="card-footer">
+								<div class="float-end">
+									<a href="#"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+									<a href="#"><i class="fab fa-twitter text-info fa-2x"></i></a>
+									<a href="#"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-sm-10 mx-auto mb-4">
+						<div class="card bg-white">
+							<img src="./img/p2.jpg" class="" alt="user2"/>
+							<div class="card-body">
+								<h3 class="card-title">Ms.Shwe Ye Khin</h3>
+								<p class="card-subtitle lead">Operation Manager</p>
+							</div>
+							<div class="card-footer">
+								<div class="float-end">
+									<a href="#"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+									<a href="#"><i class="fab fa-twitter text-info fa-2x"></i></a>
+									<a href="#"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-sm-10 mx-auto mb-4">
+						<div class="card bg-white">
+							<img src="./img/p3.jpg" class="" alt="user3"/>
+							<div class="card-body">
+								<h3 class="card-title">Ms.Wint War Shwe</h3>
+								<p class="card-subtitle lead">Operation Manager</p>
+							</div>
+							<div class="card-footer">
+								<div class="float-end">
+									<a href="#"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+									<a href="#"><i class="fab fa-twitter text-info fa-2x"></i></a>
+									<a href="#"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+	
+	<!-- end team section -->
+
+	<!-- start public interest section -->
+
+		<section class="p-5">
+			<div class="container-fluid">
+				<!-- start title -->
+					<div class="col-md-12 text-center">
+						<h3 class="text-warning fw-bold display-4">Public Interest</h3>
+						<p class="text-muted lead">Hey You Know! People are more interest fiction nowadays.</p>
+					</div>
+				<!-- end title -->
+
+				<div class="row">
+					<div class="col-md-6 col-sm-10 mx-auto">
+						<h3>Fictions</h3>
+						<div class="progress mb-3">
+							<div class="progress-bar bg-primary progress-bar-striped" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+						</div>
+
+						<h3>Fantasy</h3>
+						<div class="progress mb-3">
+							<div class="progress-bar bg-secondary progress-bar-striped" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+						</div>
+
+						<h3>Romance</h3>
+						<div class="progress mb-3">
+							<div class="progress-bar bg-success progress-bar-striped" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+						</div>
+
+						<h3>History</h3>
+						<div class="progress mb-3">
+							<div class="progress-bar bg-warning progress-bar-striped" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+						</div>
+						
+						<h3>Mystery/Thriller</h3>
+						<div class="progress mb-3">
+							<div class="progress-bar bg-danger progress-bar-striped" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+	<!-- end public interest section -->
+
+	<!-- start pricing section -->
+		<section class="bg-secondary p-4">
+			<div class="container-fluid">
+				<!-- start title -->
+					<div class="col-md-12 text-center">
+						<h3 class="text-warning fw-bold display-4">Public Interest</h3>
+						<p class="text-light lead">Hey You Know! People are more interest fiction nowadays.</p>
+					</div>
+				<!-- end title -->
+
+				<div class="row">
+					<div class="col-md-4 col-sm-10 mx-auto mb-3">
+						<div class="card bg-white text-center">
+							<div class="card-body">
+								<h5>Download Books/Free</h5>
+								<h6>$0/months</h6>
+								<hr/>
+								<ul class="list-group">
+									<li class="list-group-item">Free Book Types</li>
+									<li class="list-group-item">Romance</li>
+									<li class="list-group-item">Fiction</li>
+									<li class="list-group-item">Education</li>
+									<li class="list-group-item">History</li>
+								</ul>
+							</div>
+
+							<div class="card-footer">
+								<div class="d-grid">
+									<a href="#" class="btn bg-warning text-uppercase text-dark">Check Out</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-10 mx-auto mb-3">
+						<div class="card bg-white text-center">
+							<div class="card-body">
+								<h5>Download Books</h5>
+								<h6>$5/months</h6>
+								<hr/>
+								<ul class="list-group">
+									<li class="list-group-item">Free Book Types</li>
+									<li class="list-group-item">Romance,Fiction,Poetry</li>
+									<li class="list-group-item">Education,History</li>
+									<li class="list-group-item">Mystery/Thriller</li>
+									<li class="list-group-item">Science Fiction and Fantasy</li>
+								</ul>
+							</div>
+
+							<div class="card-footer">
+								<div class="d-grid">
+									<a href="#" class="btn bg-warning text-uppercase text-dark">Check Out</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-10 mx-auto mb-3">
+						<div class="card bg-white text-center">
+							<div class="card-body">
+								<h5>Download Books</h5>
+								<h6>$10/months</h6>
+								<hr/>
+								<ul class="list-group">
+									<li class="list-group-item">Free Book Types</li>
+									<li class="list-group-item">Romance,Fiction,Poetry</li>
+									<li class="list-group-item">Education,History</li>
+									<li class="list-group-item">Mystery/Thriller</li>
+									<li class="list-group-item">Science Fiction and Fantasy</li>
+								</ul>
+							</div>
+
+							<div class="card-footer">
+								<div class="d-grid">
+									<a href="#" class="btn bg-warning text-uppercase">Check Out</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+	
+	<!-- end pricing section -->
+
+	<!-- start contact section -->
+
+		<section class="p-4">
+			<div class="container-fluid">
+				<!-- start title -->
+					<div class="col-md-12 text-center">
+						<h3 class="text-warning fw-bold display-4">Contact</h3>
+					</div>
+				<!-- end title -->
+				<div class="row">
+					<div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-3">
+						<div class="card">
+							<div class="card-header">
+								<h5>Shop Location</h5>
+							</div>
+							<div class="card-body">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.3714956540093!2d96.15268754698033!3d16.78414231887099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ec82ece4e813%3A0x56a2251ac6e35f6b!2sAlfa%20Hotel!5e0!3m2!1sen!2smm!4v1702032395175!5m2!1sen!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
+							</div>
+							<div class="card-footer">
+								<p>+959449145150</p>
+								<p>Email:bookheaven54@gmail.com</p>
+								<p>Address: No.34, Yoke St, Yangon</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-3">
+						<div class="text-center text-secondary">
+							<h3>Got Questions?</h3>
+							<p>Stay Connected</p>
+						</div>
+
+						<form action="" method="">
+							<div class="col-md-12 form-group mb-3">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" class="form-control form-control-sm rounded-0" placeholder="Enter Your Name" />
+							</div>
+
+							<div class="col-md-12 form-group mb-3">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" class="form-control form-control-sm rounded-0" placeholder="Enter Your Email" />
+							</div>
+
+							<div class="col-md-12 form-group mb-3">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" class="form-control form-control-sm rounded-0" rows="3" placeholder="Enter Your Message"></textarea>
+							</div>
+
+							<div class="d-grid">
+								<button type="submit" class="btn bg-warning rounded-0">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+	<!-- end contact section -->
+
+	<!-- start footer section -->
+		<footer class="bg-dark py-3">
+
+			<!-- elfsight js1 div1 -->
+			<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+			<div class="elfsight-app-89ae2dbc-f5d3-4a0d-abb8-0f45e4b02ae3" data-elfsight-app-lazy></div>
+
+			<div class="container-fluid">
+				<div class="col-12 text-center">
+					<p class="text-white">&copy; Copyright <span id="autoyear"></span> -Make By Book Heaven Co.,Ltd</p>
+				</div>
+			</div>
+		</footer>
+	
+	<!-- end footer section -->
+
+	<!-- STARAT MODAL BOX -->
+		<!-- Start get in touch modal -->
+			<div id="loginmodal" class="modal">
+				<div class="modal-dialog modal-dialog-centered modal-sm">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Login Here</h5>
+							<button type="submit" class="btn-close" data-bs-dismiss="modal">&times;</button>
+						</div>
+						<div class="modal-body">
+							<div class="col-md-12">
+								<form action="" method="">
+									<div class="form-group mb-4">
+										<label for="email">Email</label>
+										<input type="email" name="loginemail" id="loginemail" class="form-control form-control-sm rounded-0" placeholder="Please Enter Your Email">
+									</div>
+
+									<div class="form-group mb-4">
+										<label for="password">Password</label>
+										<input type="password" name="loginpassword" id="loginpassword" class="form-control form-control-sm rounded-0" placeholder="Please Enter Your Password">
+									</div>
+
+									<div class="d-flex justify-content-end">
+										<button type="submit" class="btn btn-secondary btn-sm rounded-0 me-3" data-bs-dismiss="modal">Cancel</button>
+										<button type="submit" class="btn btn-primary btn-sm rounded-0">Login</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<p>Not Yet Register!! <a href="#">Sign Up Here</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- End get in touch modal -->
+	<!-- END MODAL BOX -->
+
+
+
+	<!-- jquery js 1 -->
+	<script src="./jquery/jquery.js" type="text/javascript"></script>
+
+	<script>
+		const autoyear=document.getElementById("autoyear");
+		const getyear = new Date().getUTCFullYear();
+		autoyear.textContent = getyear;
+	</script>
+
+	<!-- bootstrap css1/js1 -->
+	<script src="./bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+	
+</body>
+</html>
